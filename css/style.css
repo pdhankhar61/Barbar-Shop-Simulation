@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header_top_bar {
+
+  width: 100%;
+  padding: 0.5%;
+  background: #773636;
+  box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.top_bar_icon_title{
+    display: flex;
+    align-items: center;    
+    margin-left: 1.2%;
+    width: 40.5%;
+}
+
+.space_top_bar_title{
+    width: 5%;
+}
+
+.top_bar_title {
+  font-family: Rochester;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  text-transform: capitalize;
+  color: #ffffff;
+
+}
+
+.button_login {
+
+  width: 90px;
+  height: 30px;
+
+  background: rgba(181, 181, 181, 0.83);
+  border: 2px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button_login div {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.button_signup{
+
+
+width:100px;
+height: 30px;
+
+background: rgba(181, 181, 181, 0.83);
+border: 2px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.Report{
+  width:100px;
+height: 30px;
+
+background: rgba(181, 181, 181, 0.83);
+border: 2px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.Report div{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+
+  text-transform: capitalize;
+  color: #ffffff;
+
+}
+.button_signup div{
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+  
+    text-transform: capitalize;
+    color: #ffffff;
+
+
+}
+
+.login_signup{
+display: flex;
+align-items: center;
+margin-right: 1.2%; ;
+}
+
+.space{
+width: 10%;
+}
+
+.backgroud_image{
+  height: 100vh;
+  background:url("../images/b2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.next_and_inchair_customer_details{
+margin-top: 0.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content:space-around ;
+    padding:0 1% 0 1%;
+
+}
+
+.next_customer{
+    width: 250px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+}
+.next_customer_detail{
+background-color: white;
+height: 80px;
+width: 80px;
+border-radius: 40px;
+}
+
+.customer_in_chair_group{
+  display: flex;
+  flex-direction: column;
+  
+  }
+.customer_in_chair_individual_chair_1{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: center;
+    width: 250px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    font-family: Poppins;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #773636;
+}
+
+.customer_in_chair_individual_chair_2{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: center;
+    width: 250px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    font-family: Poppins;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #773636;
+}
+
+.customer_in_chair_individual_chair_3{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: center;
+    width: 250px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    font-family: Poppins;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #773636;
+}
+.first_letter{
+
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  font-size: 40px;
+  color: #773636;
+  font-weight: 800;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.customerName{
+  padding: 10px !important;
+  width: 150px !important;
+    all: unset;
+}
+
+/* space between customer`s div which are present in chair */
+.space_between_customer_in_chair_group{
+    height:8px;
+}
+
+/* line */
+.Quote_line{
+    text-align: center;
+    font-family: Poppins;
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    
+   
+}
+
+/* div contain three chairs */
+.chairs_as_customers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+/* parent box */
+#chair_1,#chair_2,#chair_3{
+width: 200px;
+height: 250px;
+background: #773636;
+border: 1px solid #773636;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px #FFFFFF;
+border-radius: 50px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+
+
+}
+
+/* first circle */
+#chair_1 div:first-child{
+background-color: white;
+height: 90px;
+width: 90px;
+border-radius: 45px;
+position: relative;
+bottom: 20%;
+display: flex;
+justify-content: center;
+align-items: center;text-transform: capitalize;
+color: #773636;
+}
+
+#chair_1 div:first-child div{
+  all: unset !important;
+  font-size: 20px !important;
+}
+
+#chair_1 div:last-child{
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    
+}
+
+/* first circle */
+#chair_2 div:first-child{
+  background-color: white;
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  position: relative;
+  bottom: 20%;
+  display: flex;
+justify-content: center;
+align-items: center;text-transform: capitalize;color: #773636;
+}
+#chair_2 div:first-child div{
+  all: unset !important;
+  font-size: 20px !important;
+}
+
+#chair_2 div:last-child{
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+/* first circle */
+#chair_3 div:first-child{
+  background-color: white;
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  position: relative;
+  bottom: 20%;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ text-transform: capitalize;color: #773636;
+  }
+
+  #chair_3 div:first-child div{
+    all:unset !important;
+    font-size: 20px !important;
+  }
+#chair_3 div:last-child{
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+/* Parent */
+#upcoming_customers{
+ height: 700px;
+background-color:#773636;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+/* overflow:scroll; */
+}
+
+/* Parent div */
+#upcoming_customers div{
+  width: 250px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: center;
+  font-family: Poppins;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: #773636;
+
+}
+
+/* circular child */
+#upcoming_customers div div:first-child{
+background-color: white;
+height: 80px;
+width: 80px;
+border-radius: 40px;
+font-size: 40px;
+color: #773636;
+font-weight: 800;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+/* child with text */
+#upcoming_customers div div:nth-child(2){
+padding: 10px !important;
+width: 150px !important;
+  all: unset;
+}
+
+.report{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:Poppins;
+  padding: 20px 0 20px 0;
+  font-size:20px ;
+ 
+}
+
+
+.report p{
+  color: #773636;
+  font-family: Roboto;
+  letter-spacing: 10px;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.report th, td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.report th{
+  background-color: #773636;
+  color: white;
+  padding: 12px 8px 12px 8px;
+
+}

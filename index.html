@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barber Shop</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rochester" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <!-- <script async src="../ms project/javascript/customer_login.js"></script> -->
+   
+</head>
+
+<body>
+    <section>
+
+        <!-- -----------------header---------------------- -->
+
+        <header>
+            <div class="header_top_bar">
+                <div class="top_bar_icon_title">
+                    <div class="top_bar_icon"><img src="images/top_bar_icon.png" /></div>
+                    <div class="space_top_bar_title"></div>
+                    <div class="top_bar_title">Barber Shop</div>
+                </div>
+                <div class="login_signup">
+                    <div class="button_login" onclick="newCustomer()">
+                        <div>log in</div>
+                    </div>
+                    <div class="space"></div>
+                    <div class="button_signup" onclick="delete_customer()">
+                        <div>Remove</div>
+                    </div>
+                    <div class="space"></div>
+                    <div class="Report" onclick="Report()">
+                        <div>Report</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div>
+            <div class="backgroud_image">
+                <div class="next_and_inchair_customer_details">
+                    <div>
+                        <div class="next_customer">
+                            <div class="next_customer_detail"></div>
+                        </div>
+                    </div>
+                    <div class="customer_in_chair_group">
+                        <div class="customer_in_chair_individual_chair_1">
+                            <div class="first_letter"></div>
+                            <div class="customerName"></div>
+                        </div>
+
+                        <div class="space_between_customer_in_chair_group"></div>
+
+                        <div class="customer_in_chair_individual_chair_2">
+                            <div class="first_letter"></div>
+                            <div class="customerName"></div>
+                        </div>
+
+                        <div class="space_between_customer_in_chair_group"></div>
+
+                        <div class="customer_in_chair_individual_chair_3">
+                            <div class="first_letter"></div>
+                            <div class="customerName"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Quote_line">Hair Style is a must fashion try for all occasion</div>
+
+
+                <div class="chairs_as_customers">
+
+                    <!-- --------------chairs of shop as server--------------- -->
+
+                    <div id="chair_1">
+                        <div></div>
+                        <div><img src="images/Cutting.png" alt="Cutting" width="60" height="60"></div>
+                        <div>Cutting</div>
+                    </div>
+                    <div id="chair_2">
+                        <div></div>
+                        <div><img src="images/Shaving.png" alt="Shaving" width="60" height="60"></div>
+                        <div>Shaving</div>
+                    </div>
+                    <div id="chair_3">
+                        <div></div>
+                        <div><img src="images/Facial.png" alt="Facial" width="60" height="60"></div>
+                        <div>Facial</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- -----------upcoming_customers_details--------------- -->
+
+        <div id="upcoming_customers">
+            <h3 style="color: white;font-family: Poppins;padding-top: 20px; text-transform: uppercase;letter-spacing: 5px;">New Customers</h3>
+        </div>
+        <div class="report">
+    <p>REPORT</p>
+
+        </div>
+
+    
+        <script  src="javascript/new_customers.js" ></script>
+      
+    
+</body>
+
+</html>
